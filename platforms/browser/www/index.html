@@ -6,7 +6,20 @@
         <title>Blank App</title>
     </head>
     <body>
-        <script type="text/javascript" src="cordova.js"></script>
-        <h1>Wong</h1>
+        <script type="text/javascript" >
+      function test() {
+      document.getElementById("name").innerHTML = "Hello World!";
+}
+     function test2() {
+      document.getElementById("name").innerHTML = "nothing";
+}       
+        
+ 
+        </script>
+        <center><p id='name'>Wong Ing Ong</p>
+         <button onclick="test();">Test</button>
+         <button onclick="test2();">clear</button>
+         </center>
+
     </body>
 </html>
